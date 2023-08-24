@@ -1,0 +1,167 @@
+[
+  {
+    "location": "US",
+    "gpuTypeId": "NVIDIA RTX A6000",
+    "gpuTotal": 8
+  },
+  {
+    "location": "NO",
+    "gpuTypeId": "NVIDIA RTX A5000",
+    "gpuTotal": 8
+  },
+  {
+    "location": "NO",
+    "gpuTypeId": "NVIDIA RTX A4000",
+    "gpuTotal": 10
+  },
+  {
+    "location": "CA",
+    "gpuTypeId": "NVIDIA RTX A6000",
+    "gpuTotal": 8
+  },
+  {
+    "location": "US",
+    "gpuTypeId": "NVIDIA L40",
+    "gpuTotal": 8
+  },
+  {
+    "location": "CA",
+    "gpuTypeId": "NVIDIA A100 80GB PCIe",
+    "gpuTotal": 8
+  },
+  {
+    "location": "US",
+    "gpuTypeId": "NVIDIA A100 80GB PCIe",
+    "gpuTotal": 8
+  },
+  {
+    "location": "SE",
+    "gpuTypeId": "NVIDIA RTX A6000",
+    "gpuTotal": 10
+  },
+  {
+    "location": "CA",
+    "gpuTypeId": "NVIDIA RTX A4000",
+    "gpuTotal": 8
+  },
+  {
+    "location": "IS",
+    "gpuTypeId": "NVIDIA A100-SXM4-80GB",
+    "gpuTotal": 8
+  },
+  {
+    "location": "SE",
+    "gpuTypeId": "NVIDIA RTX A5000",
+    "gpuTotal": 10
+  },
+  {
+    "location": "FR",
+    "gpuTypeId": "NVIDIA RTX A5000",
+    "gpuTotal": 8
+  },
+  {
+    "location": "US",
+    "gpuTypeId": "NVIDIA GeForce RTX 3070",
+    "gpuTotal": 8
+  },
+  {
+    "location": "RO",
+    "gpuTypeId": "NVIDIA A100 80GB PCIe",
+    "gpuTotal": 8
+  },
+  {
+    "location": "FR",
+    "gpuTypeId": "NVIDIA RTX A6000",
+    "gpuTotal": 8
+  },
+  {
+    "location": "CZ",
+    "gpuTypeId": "NVIDIA RTX A5000",
+    "gpuTotal": 8
+  },
+  {
+    "location": "HR",
+    "gpuTypeId": "NVIDIA A40",
+    "gpuTotal": 10
+  },
+  {
+    "location": "CZ",
+    "gpuTypeId": "NVIDIA GeForce RTX 4090",
+    "gpuTotal": 8
+  },
+  {
+    "location": "US",
+    "gpuTypeId": "NVIDIA RTX A4000",
+    "gpuTotal": 8
+  },
+  {
+    "location": "US",
+    "gpuTypeId": "NVIDIA A100-SXM4-80GB",
+    "gpuTotal": 8
+  },
+  {
+    "location": "US",
+    "gpuTypeId": "NVIDIA RTX 6000 Ada Generation",
+    "gpuTotal": 8
+  },
+  {
+    "location": "US",
+    "gpuTypeId": "NVIDIA GeForce RTX 3090",
+    "gpuTotal": 8
+  },
+  {
+    "location": "CZ",
+    "gpuTypeId": "NVIDIA GeForce RTX 3090",
+    "gpuTotal": 8
+  },
+  {
+    "location": "NL",
+    "gpuTypeId": "NVIDIA A30",
+    "gpuTotal": 8
+  },
+  {
+    "location": "SE",
+    "gpuTypeId": "NVIDIA GeForce RTX 4090",
+    "gpuTotal": 8
+  },
+  {
+    "location": "US",
+    "gpuTypeId": "NVIDIA H100 80GB HBM3",
+    "gpuTotal": 8
+  },
+  {
+    "location": "US",
+    "gpuTypeId": "NVIDIA RTX A5000",
+    "gpuTotal": 8
+  },
+  {
+    "location": "SE",
+    "gpuTypeId": "NVIDIA GeForce RTX 3090",
+    "gpuTotal": 8
+  },
+  {
+    "location": "US",
+    "gpuTypeId": "NVIDIA RTX A5000",
+    "gpuTotal": 10
+  },
+  {
+    "location": "CA",
+    "gpuTypeId": "NVIDIA GeForce RTX 4090",
+    "gpuTotal": 8
+  },
+  {
+    "location": "NO",
+    "gpuTypeId": "NVIDIA RTX A5000",
+    "gpuTotal": 10
+  },
+  {
+    "location": "BG",
+    "gpuTypeId": "NVIDIA RTX A4000",
+    "gpuTotal": 8
+  },
+  {
+    "location": "US",
+    "gpuTypeId": "NVIDIA A40",
+    "gpuTotal": 8
+  }
+]
