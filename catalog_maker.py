@@ -4,8 +4,6 @@ import runpod
 
 from accelerator_naming import NAME_MAP
 
-runpod.api_key = ""
-
 
 # Obtain the list of GPUs
 # gpus = runpod.get_gpus()
@@ -32,6 +30,7 @@ for item in data:
         new_entry['MemoryGiB'] = float(size * gpu['memoryInGb'])
         new_entry['AcceleratorName'] = NAME_MAP[item['gpuTypeId']]
         new_entry['AcceleratorCount'] = float(size)
+        new_entry['GpuInfo'] = gpu['displayName']
         new_entry['Region'] = item['location']
 
         if gpu['communityCloud'] and gpu['communityPrice'] and gpu['communitySpotPrice']:
