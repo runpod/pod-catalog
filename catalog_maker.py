@@ -30,7 +30,7 @@ for item in data:
         new_entry['MemoryGiB'] = float(size * gpu['memoryInGb'])
         new_entry['AcceleratorName'] = NAME_MAP[item['gpuTypeId']]
         new_entry['AcceleratorCount'] = float(size)
-        new_entry['GpuInfo'] = gpu['displayName']
+        new_entry['GpuInfo'] = gpu['displayName'].replace(" ", "_")
         new_entry['Region'] = item['location']
 
         if gpu['communityCloud'] and gpu['communityPrice'] and gpu['communitySpotPrice']:
