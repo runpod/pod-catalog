@@ -36,14 +36,14 @@ for item in data:
 
         if gpu['communityCloud'] and gpu['communityPrice'] and gpu['communitySpotPrice']:
             new_entry['InstanceType'] = f"{size}x_{NAME_MAP[item['gpuTypeId']]}_COMMUNITY"
-            new_entry['Price'] = gpu['communityPrice']
-            new_entry['SpotPrice'] = gpu['communitySpotPrice']
+            new_entry['Price'] = gpu['communityPrice'] * size
+            new_entry['SpotPrice'] = gpu['communitySpotPrice'] * size
             csv_data.append(new_entry)
 
         if gpu['secureCloud'] and gpu['securePrice'] and gpu['secureSpotPrice']:
             new_entry['InstanceType'] = f"{size}x_{NAME_MAP[item['gpuTypeId']]}_SECURE"
-            new_entry['Price'] = gpu['securePrice']
-            new_entry['SpotPrice'] = gpu['secureSpotPrice']
+            new_entry['Price'] = gpu['securePrice'] * size
+            new_entry['SpotPrice'] = gpu['secureSpotPrice'] * size
             csv_data.append(new_entry)
 
 
