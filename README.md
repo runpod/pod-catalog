@@ -1,5 +1,5 @@
 # pod-catalog
-Developed for SkyPilot integration, this repo attempts to convert RunPod cloud offerings into a traditional cloud catalog style.
+Developed for SkyPilot integration, this repo attempts to convert Runpod cloud offerings into a traditional cloud catalog style.
 
 ## Catalog Format
 
@@ -28,11 +28,11 @@ Taken from the v5 SkyPilot format, the catalog is a CSV file with the following 
 
 **vCPUs** | #.0
 
-- #: The number of vCPUs (RunPod does not allow specification of vCPUs but has a minium of 4 per GPU)
+- #: The number of vCPUs (Runpod does not allow specification of vCPUs but has a minium of 4 per GPU)
 
 **MemoryGiB** | #.0
 
-- #: The amount of memory in GB (RunPod does not allow specification of memory but requires memory to at least match the GPU memory)
+- #: The amount of memory in GB (Runpod does not allow specification of memory but requires memory to at least match the GPU memory)
 
 **AcceleratorName** | gpuType
 
