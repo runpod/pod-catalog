@@ -1,6 +1,10 @@
 # pod-catalog
 Developed for SkyPilot integration, this repo attempts to convert RunPod cloud offerings into a traditional cloud catalog style.
 
+<!-- runpod-agent-setup:start -->
+**Using an AI agent?** Point it to https://docs.runpod.io/agent-setup.md to install the Runpod skills and MCP server.
+<!-- runpod-agent-setup:end -->
+
 ## Catalog Format
 
 Taken from the v5 SkyPilot format, the catalog is a CSV file with the following columns:
